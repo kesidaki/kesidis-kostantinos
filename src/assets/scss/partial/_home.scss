@@ -1,0 +1,31 @@
+#home-page {
+    .up-line {
+        font-size: 1.2rem;
+        border-top: 5px;
+        border-top-style: solid;
+    
+        .v-icon {
+            font-size: 3rem;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    
+        &.up-line-red {
+            border-top-color: #f44336;
+    
+            .v-icon { color: #f44336; }
+        }
+    
+        &.up-line-green {
+            border-top-color: #4caf50;
+    
+            .v-icon { color: #4caf50; }
+        }
+    
+        &.up-line-blue {
+            border-top-color: #2196f3;
+    
+            .v-icon { color: #2196f3; }
+        }
+    }
+}
