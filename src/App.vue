@@ -56,6 +56,11 @@
     <v-content>
         <router-view></router-view>
     </v-content>
+
+    <v-footer class="pa-3" color="#01579b">
+        <v-spacer></v-spacer>
+        <div class="white--text">&copy; {{ new Date().getFullYear() }} | Konstantinos Kesidis</div>
+    </v-footer>
 </v-app>
 </template>
 

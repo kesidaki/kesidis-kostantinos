@@ -66,7 +66,7 @@
                                     </v-list-tile-content>
                                 </v-list-tile>
 
-                                <v-list-tile v-for="(subItem, subIndex) in item.responsibilities" :key="responsibilityKey(subIndex)">
+                                <v-list-tile v-for="(subItem, subIndex) in item.responsibilities" :key="responsibilityKey(subIndex)" class="custom-v-list-tile-content">
                                     <v-list-tile-avatar>
                                         <v-icon>fas fa-angle-right</v-icon>
                                     </v-list-tile-avatar>

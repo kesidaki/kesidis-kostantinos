@@ -3,4 +3,16 @@
         border-top: 3px solid #B0BEC5;
         padding-top: 20px;
     }
+
+    .custom-v-list-tile-content {
+        .v-list__tile {
+            padding-left: 0 !important;
+        }
+
+        .v-list__tile__title {
+            text-overflow: clip;
+            overflow: visible;
+            white-space: normal;
+        }
+    }
 }
