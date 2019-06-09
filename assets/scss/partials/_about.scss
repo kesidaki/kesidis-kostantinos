@@ -1,0 +1,13 @@
+#about-page {
+    .custom-v-list-tile-content {
+        .v-list__tile {
+            padding-left: 0 !important;
+        }
+
+        .v-list__tile__title {
+            text-overflow: clip;
+            overflow: visible;
+            white-space: normal;
+        }
+    }
+}
