@@ -71,9 +71,9 @@ export default {
     data: () => ({
         drawer: null,
         items: [
-        { icon: 'home', text: 'Home Page', link: '/' },
-        { icon: 'account_box', text: 'About Me', link: 'about' },
-        { icon: 'web', text: 'Projects', link: 'projects' },
+        { icon: 'fas fa-home', text: 'Home Page', link: '/' },
+        { icon: 'far fa-address-card', text: 'About Me', link: 'about' },
+        { icon: 'fas fa-globe', text: 'Projects', link: 'projects' },
         ],
         social: [
         { icon: facebookIcon, color: '#3b5998', title: 'Facebook', link: 'https://www.facebook.com/kesidiskostas' },

@@ -20,7 +20,7 @@
                         <h4 class="title pa-3" v-if="item.subtitle.length > 0">{{ item.subtitle }}</h4>
                     </v-card-text>
                     <v-btn fab color="primary" absolute bottom right large :href="item.url" target="_blank">
-                        <v-icon large>public</v-icon>
+                        <v-icon large>fas fa-globe</v-icon>
                     </v-btn>
                 </v-card>
             </v-flex>

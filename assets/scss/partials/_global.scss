@@ -17,3 +17,9 @@
         background-color: #B0BEC5;
     }
 }
+
+@media screen and (min-width: 1264px) {
+    .v-content__wrap {
+        margin-top: -48px;
+    }
+}

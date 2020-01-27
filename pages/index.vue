@@ -1,9 +1,9 @@
 <template>
     <v-container grid-list-md id="home-page">
         <v-layout row wrap>
-            <v-flex xs12 class="mt-4 mb-4">
-                <h1 class="display-2 font-weight-black mb-2 primary--text">Konstantinos Kesidis</h1>
-                <h2 class="headline font-weight-bold secondary--text">Full Stack Web Developer</h2>
+            <v-flex xs12 class="mb-4">
+                <h1 class="display-2 font-weight-bold">Konstantinos Kesidis</h1>
+                <h2 class="display-1">Web Developer</h2>
 
                 <v-divider class="mt-4 notched"/>
             </v-flex>
@@ -16,19 +16,19 @@
             <v-flex xs12 class="my-5">
                 <v-layout row wrap>
                     <v-flex xs12 md4 class="up-line up-line-red" text-xs-center>
-                        <v-icon size="60">public</v-icon>
+                        <v-icon size="60">fas fa-globe</v-icon>
                         <p>Create Websites and Web Applications</p>
                         <p class="blue-grey--text text-darken-2">Designed according to your needs and styling of your choice, made as simple and reliable as possible.</p>
                     </v-flex>
 
                     <v-flex xs12 md4 class="up-line up-line-green" text-xs-center>
-                        <v-icon size="60">autorenew</v-icon>
+                        <v-icon size="60">fas fa-sync-alt</v-icon>
                         <p>Speed Optimization and SEO</p>
                         <p class="blue-grey--text text-darken-2">Improving the user experience and ranking of the page on Google to.</p>
                     </v-flex>
 
                     <v-flex xs12 md4 class="up-line up-line-blue" text-xs-center>
-                        <v-icon size="60">mobile_friendly</v-icon>
+                        <v-icon size="60">fas fa-mobile-alt</v-icon>
                         <p>Mobile First Design</p>
                         <p class="blue-grey--text text-darken-2">Interfaces and features and content designed to look properly on all display devices and sizes.</p>
                     </v-flex>
