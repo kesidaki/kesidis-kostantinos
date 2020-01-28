@@ -1,7 +1,7 @@
 <template>
     <v-container grid-list-md id="about-page">
         <v-layout row wrap>
-            <v-flex xs12 class="about-page__title">
+            <v-flex xs12 class="page-title">
                 <h1 class="display-2 font-weight-bold">Konstantinos Kesidis</h1>
                 <h2 class="display-1">Web Developer</h2>
             </v-flex>

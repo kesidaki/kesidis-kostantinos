@@ -2,8 +2,9 @@
     <v-container grid-list-md id="projects-page">
         <v-layout row wrap>
 
-            <v-flex xs12>
-                <h1>Projects</h1>
+            <v-flex xs12 class="page-title">
+                <h1 class="display-2 font-weight-bold">Konstantinos Kesidis</h1>
+                <h2 class="display-1">Projects</h2>
             </v-flex>
 
             <v-flex xs12>

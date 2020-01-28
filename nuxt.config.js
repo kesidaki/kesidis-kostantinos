@@ -38,6 +38,7 @@ export default {
         '@/assets/scss/partials/_global.scss',
         '@/assets/scss/partials/_home.scss',
         '@/assets/scss/partials/_navigation.scss',
+        '@/assets/scss/partials/_print.scss',
     ],
 
     /*

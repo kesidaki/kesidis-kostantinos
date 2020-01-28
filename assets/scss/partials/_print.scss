@@ -1,0 +1,27 @@
+@media print {
+    .v-navigation-drawer, .v-toolbar, .v-footer {
+        display: none !important;
+    }
+
+    @media (min-width: 1264px) {
+        .v-content__wrap {
+            margin-top: -48px !important;
+            margin-left: -300px !important;
+        }
+    }
+
+    @page { margin: 0; }
+    body { margin: 1.6cm; }
+
+    .page-title {
+        margin-top: -100px !important;
+    }
+
+    .about-page__work-column {
+        width: 65% !important;
+    }
+
+    .about-page__information-column {
+        width: 35% !important;
+    }
+}

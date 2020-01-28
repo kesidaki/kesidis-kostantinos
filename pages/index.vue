@@ -1,11 +1,9 @@
 <template>
     <v-container grid-list-md id="home-page">
         <v-layout row wrap>
-            <v-flex xs12 class="mb-4">
+            <v-flex xs12 class="page-title">
                 <h1 class="display-2 font-weight-bold">Konstantinos Kesidis</h1>
                 <h2 class="display-1">Web Developer</h2>
-
-                <v-divider class="mt-4 notched"/>
             </v-flex>
 
             <v-flex xs12 class="subheading">
