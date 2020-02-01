@@ -8,22 +8,22 @@
         </v-layout>
 
         <v-layout row wrap>
-            <v-flex xs12 md7 order-xs2 order-md1 class="about-page__work-column px-3">
+            <v-flex xs12 md7 order-xs2 order-md1 class="d-print-left d-print-order-1 px-3">
                 <skills-list/>
                 <v-divider class="my-4"/>
                 <experience-list/>
                 <v-divider class="my-4"/>
                 <education-list/>
-                <v-divider class="my-4"/>
-                <application-list/>
+                <v-divider class="my-4 d-print-none"/>
+                <application-list class="d-print-none"/>
             </v-flex>
-            <v-flex xs12 md5 order-xs1 order-md2 class="about-page__information-column px-3">
+            <v-flex xs12 md5 order-xs1 order-md2 class="d-print-right d-print-order-2 px-3 about-page__information-column">
                 <about-me/>
                 <v-divider class="my-4"/>
                 <contact-list/>
                 <v-divider class="my-4"/>
                 <portfolio-list/>
-                <v-divider class="my-4"/>
+                <v-divider class="my-4 d-print-none"/>
             </v-flex>
         </v-layout>
     </v-container>

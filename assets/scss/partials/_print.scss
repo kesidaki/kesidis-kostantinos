@@ -1,27 +1,88 @@
 @media print {
+    @page {
+        margin: 0;
+    }
+    
+    html {
+        font-size: 12px;
+    }
+
     .v-navigation-drawer, .v-toolbar, .v-footer {
         display: none !important;
     }
 
-    @media (min-width: 1264px) {
-        .v-content__wrap {
-            margin-top: -48px !important;
-            margin-left: -300px !important;
+    .v-content {
+        padding: 0 !important;
+    }
+
+    .d-print-none {
+        display: none;
+    }
+
+    .d-print-order-1 {
+        -webkit-box-ordinal-group: 2 !important;
+        order: 1 !important;
+    }
+
+    .d-print-order-2 {
+        -webkit-box-ordinal-group: 3 !important;
+        order: 2 !important;
+    }
+
+    #about-page {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        .d-print-left {
+            flex-basis: 58.333333333333336% !important;
+            -webkit-box-flex: 0 !important;
+            flex-grow: 0 !important;
+            max-width: 58.333333333333336% !important;
         }
-    }
+    
+        .d-print-right {
+            flex-basis: 41.66666666666667% !important;
+            -webkit-box-flex: 0 !important;
+            flex-grow: 0 !important;
+            max-width: 41.66666666666667% !important;
+        }
 
-    @page { margin: 0; }
-    body { margin: 1.6cm; }
-
-    .page-title {
-        margin-top: -100px !important;
-    }
-
-    .about-page__work-column {
-        width: 65% !important;
-    }
-
-    .about-page__information-column {
-        width: 35% !important;
+        .cv-section-headline-wrapper {
+            &.mb-3 {
+                margin-bottom: 8px !important;
+            }
+        }
+    
+        .about-page__information-column {
+            border-left: 10px double #ccc !important;
+        }
+    
+        .v-chip .v-chip__content {
+            font-size: 1.5rem !important;
+            height: 24px !important;
+        }
+    
+        .v-timeline-item {
+            padding-bottom: 4px !important;
+    
+            .v-timeline-item__dot {
+                background: #000 !important;
+                background-color: #000 !important;
+            }
+    
+            .v-timeline-item__body {
+                max-width: calc(100% - 45px) !important;
+            }
+        }
+    
+        .v-list--two-line .v-list__tile {
+            height: 60px !important;
+        }
+    
+        .v-divider.my-4 {
+            margin-top: 14px !important;
+            margin-bottom: 14px !important;
+        }
     }
 }

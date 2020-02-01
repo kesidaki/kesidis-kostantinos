@@ -3,7 +3,7 @@
         <div class="cv-section-headline-wrapper mb-3">
             <h3 class="headline font-weight-bold">
                 <v-icon class="squared-icon">fas fa-graduation-cap</v-icon> 
-                Education
+                <span>Education</span>
             </h3>
         </div>
 
